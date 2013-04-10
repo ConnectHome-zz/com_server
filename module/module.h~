@@ -1,0 +1,8 @@
+#ifndef CLIENT_H
+#define CLIENT_H
+
+#include "../network/network.h"
+
+void app(const char *address, const char *name,const int port);
+
+#endif // CLIENT_H
