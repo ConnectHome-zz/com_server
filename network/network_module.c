@@ -1,5 +1,20 @@
 #include "network_module.h"
+/**
+ * \file network/network_module.c
+ * \brief This file is used for the module communication
+ * \author Morgan C.
+ * \date 12/04/2013
+ */
 
+
+
+/**
+ * \fn int init_connection_module(const char *address,const int port)
+ * \brief This function is used to initialize a communication between a module program and a server
+ * \param[in] address the address of the server
+ * \param[in] port the port to connect
+ * \return The socket between the modele and the server
+ */
 int init_connection_module(const char *address,const int port)
 {
    SOCKET sock = socket(AF_INET, SOCK_STREAM, 0);
@@ -32,26 +47,47 @@ int init_connection_module(const char *address,const int port)
    return sock;
 }
 
+/**
+ * \fn void end_connection_module(int sock)
+ * \brief This function is used to close a communication between a module program and a server
+ * \param[in] sock the socket between the module and the server
+ */
 void end_connection_module(int sock)
 {
    closesocket(sock);
 }
 
 
+/**
+ * \fn int read_server(SOCKET sock, char *buffer)
+ * \brief This function is used to read messages
+ * \param[in] sock the socket between the module and the server
+ * \param[out] buffer the buffer is the reading data which comes from 			      the server
+ * \return number of character in the message
+ */
 int read_server(SOCKET sock, char *buffer)
 {
    int n = 0;
 
+   //read message
    if((n = recv(sock, buffer, BUF_SIZE - 1, 0)) < 0)
    {
       perror("recv()");
       exit(errno);
    }
+   //stop reading
    buffer[n] = 0;
 
    return n;
 }
 
+/**
+ * \fn void write_server(SOCKET sock, const char *buffer)
+ * \brief This function is used to write messages
+ * \param[in] sock the socket between the module and the server
+ * \param[in] buffer the buffer is the data to write to the server
+ * \return number of character in the message
+ */
 void write_server(SOCKET sock, const char *buffer)
 {
    if(send(sock, buffer, strlen(buffer), 0) < 0)

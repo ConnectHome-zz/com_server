@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/dd8/network__server_8c.html#a9b4e467c5a6b7831e8a4b0fdf15ceabf" title="This function is used to initialize the server communication system." alt="" coords="99,5,251,35"/>
+<area shape="rect" id="node5" href="$d7/d40/list_8c.html#a6ced15c5b208e094a996be7dcd2c1edc" title="This function create a new list." alt="" coords="140,59,209,88"/>
+<area shape="rect" id="node7" href="$d7/d40/list_8c.html#acb9525998e5072ee06c078289840e8d0" title="This function return a node according to is number." alt="" coords="311,137,409,167"/>
+<area shape="rect" id="node9" href="$db/dd8/network__server_8c.html#a1f7eec118ee30cafef6c67ca248f3219" title="This function is used to read messages." alt="" coords="127,163,223,192"/>
+<area shape="rect" id="node11" href="$d7/d40/list_8c.html#ac928c3f662c9e8a458bc49a137f275f3" title="This function create a new node with a value." alt="" coords="123,269,227,299"/>
+<area shape="rect" id="node17" href="$d1/d20/server_8c.html#aa5e71db208ec46f647ea883e15d9e0fa" title="This function is used for the redirection of messages to the web server." alt="" coords="124,323,225,352"/>
+<area shape="rect" id="node27" href="$de/d6f/server_2module_8c.html#a87c7b462fa6f8b2104d6a834d17f261c" title="This function is used to close all socket." alt="" coords="117,376,232,405"/>
+<area shape="rect" id="node35" href="$de/d6f/server_2module_8c.html#a862996cc252f5177b516168cbd798070" title="This function is used to close all socket." alt="" coords="121,216,228,245"/>
+<area shape="rect" id="node38" href="$db/dd8/network__server_8c.html#a6a5635e7bc44496993e602c0213ebd5f" title="This function is used to close a communication between a module program and a server." alt="" coords="97,429,252,459"/>
+<area shape="rect" id="node13" href="$dd/d2d/node_8c.html#a9b711c65f41bb8876324b9477eb6dbea" title="This function create a new node with a value." alt="" coords="320,216,400,245"/>
+<area shape="rect" id="node15" href="$d7/d40/list_8c.html#a10c697ae9ad4d88d1fd591d26b7ea164" title="This function add a node in the list." alt="" coords="327,269,393,299"/>
+<area shape="rect" id="node19" href="$d6/d4c/curl_8c.html#a48a31ce60e9cddd76f86d21cccaa2d94" title="This function do a web request with a POST method." alt="" coords="301,323,419,352"/>
+<area shape="rect" id="node21" href="$d1/d20/server_8c.html#a2caa1f3cd0ab77f88f1be662c22c0481" title="This function is used for the redirection of messages." alt="" coords="323,376,397,405"/>
+<area shape="rect" id="node23" href="$d2/dd2/curl_8h.html#af97ba219a534ee7c33451ab522f89dd1" title="msg_curl" alt="" coords="479,323,553,352"/>
+<area shape="rect" id="node25" href="$db/dd8/network__server_8c.html#a3e4d4f8a08c807901d91973999254440" title="This function is used to write messages." alt="" coords="467,376,565,405"/>
+<area shape="rect" id="node29" href="$d7/d40/list_8c.html#a428354760b7976b491d73488e9745c1c" title="This function delete a list and its nodes." alt="" coords="329,429,391,459"/>
+<area shape="rect" id="node31" href="$dd/d2d/node_8c.html#acf77bfa958204c2029ce629f43ae6a54" title="This function clear and free a node." alt="" coords="479,429,553,459"/>
+<area shape="rect" id="node33" href="$dd/d2d/node_8c.html#a834baf03790976caa060f65f4c5ff7c1" title="This function free a node." alt="" coords="613,429,699,459"/>
+</map>

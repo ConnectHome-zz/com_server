@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$module_2module_8c.html#a4acff19b69409e6e3eb611651986891e" title="This is the application function." alt="" coords="104,85,147,115"/>
+<area shape="rect" id="node5" href="$network__module_8c.html#a6a2a00472b5a2f78e00f70a71ac64e05" title="This function is used to initialize a communication between a module program and a server..." alt="" coords="197,5,355,35"/>
+<area shape="rect" id="node7" href="$network__module_8c.html#a0a0661169ca98432ecb57381cb317b12" title="This function is used to write messages." alt="" coords="229,59,323,88"/>
+<area shape="rect" id="node9" href="$network__module_8c.html#ae92d9d0e39c06e54090a1b260d5246cb" title="This function is used to read messages." alt="" coords="231,112,321,141"/>
+<area shape="rect" id="node11" href="$network__module_8c.html#a3ce6eb1f956c64de2aefb79376df7a2b" title="This function is used to close a communication between a module program and a server." alt="" coords="195,165,357,195"/>
+</map>

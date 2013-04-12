@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d6/d4c/curl_8c.html#a48a31ce60e9cddd76f86d21cccaa2d94" title="This function do a web request with a POST method." alt="" coords="157,5,275,35"/>
+<area shape="rect" id="node5" href="$d1/d20/server_8c.html#a2caa1f3cd0ab77f88f1be662c22c0481" title="This function is used for the redirection of messages." alt="" coords="179,59,253,88"/>
+<area shape="rect" id="node7" href="$d2/dd2/curl_8h.html#af97ba219a534ee7c33451ab522f89dd1" title="msg_curl" alt="" coords="335,32,409,61"/>
+<area shape="rect" id="node9" href="$db/dd8/network__server_8c.html#a3e4d4f8a08c807901d91973999254440" title="This function is used to write messages." alt="" coords="323,85,421,115"/>
+</map>

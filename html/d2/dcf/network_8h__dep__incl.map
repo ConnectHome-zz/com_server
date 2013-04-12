@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d9/d14/network__module_8h.html" title="network/network_module.h" alt="" coords="149,83,328,112"/>
+<area shape="rect" id="node11" href="$d3/d6f/network__server_8h.html" title="network/network_server.h" alt="" coords="435,83,605,112"/>
+<area shape="rect" id="node5" href="$dd/d2f/module_2module_8h.html" title="module/module.h" alt="" coords="5,160,125,189"/>
+<area shape="rect" id="node9" href="$d4/d63/network__module_8c.html" title="This file is used for the module communication." alt="" coords="149,160,328,189"/>
+<area shape="rect" id="node7" href="$db/dd1/module_2module_8c.html" title="This file is an example of a module." alt="" coords="5,237,125,267"/>
+<area shape="rect" id="node13" href="$db/dd8/network__server_8c.html" title="This file is used for the server communication." alt="" coords="352,160,523,189"/>
+<area shape="rect" id="node15" href="$d9/db7/server_2module_8h.html" title="server/module.h" alt="" coords="547,160,661,189"/>
+<area shape="rect" id="node19" href="$d8/dc3/server_8h.html" title="server/server.h" alt="" coords="644,237,753,267"/>
+<area shape="rect" id="node17" href="$de/d6f/server_2module_8c.html" title="server/module.c" alt="" coords="505,237,620,267"/>
+<area shape="rect" id="node21" href="$d1/d20/server_8c.html" title="This file is used to catch and send message from module to the webserver." alt="" coords="644,315,753,344"/>
+</map>

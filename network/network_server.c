@@ -1,5 +1,18 @@
 #include "network_server.h"
 
+/**
+ * \file network/network_server.c
+ * \brief This file is used for the server communication
+ * \author Morgan C.
+ * \date 12/04/2013
+ */
+
+/**
+ * \fn int init_connection_server(const int port)
+ * \brief This function is used to initialize the server communication system
+ * \param[in] port the port to connect
+ * \return The socket between the modele and the server
+ */
 int init_connection_server(const int port)
 {
    SOCKET sock = socket(AF_INET, SOCK_STREAM, 0);
@@ -35,13 +48,24 @@ int init_connection_server(const int port)
    return sock;
 }
 
+/**
+ * \fn void end_connection_server(int sock)
+ * \brief This function is used to close a communication between a module program and a server
+ * \param[in] sock the socket between the module and the server
+ */
 void end_connection_server(int sock)
 {
    closesocket(sock);
 }
 
 
-
+/**
+ * \fn void write_module(SOCKET sock, const char *buffer)
+ * \brief This function is used to write messages
+ * \param[in] sock the socket between the module and the server
+ * \param[in] buffer the buffer is the data to write to the module
+ * \return number of character in the message
+ */
 void write_module(SOCKET sock, const char *buffer)
 {
    if(send(sock, buffer, strlen(buffer), 0) < 0)
@@ -54,7 +78,13 @@ void write_module(SOCKET sock, const char *buffer)
 }
 
 
-//Cette fonction me semble pas génial, il faudrait renvoyer -1 et non 0 ?
+/**
+ * \fn int read_module(SOCKET sock, char *buffer)
+ * \brief This function is used to read messages
+ * \param[in] sock the socket between the module and the server
+ * \param[out] buffer the buffer is the reading data which comes from 			      the module
+ * \return number of character in the buffer message
+ */
 int read_module(SOCKET sock, char *buffer)
 {
    int n = 0;

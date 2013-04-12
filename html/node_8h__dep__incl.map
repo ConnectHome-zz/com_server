@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$list_8h.html" title="list/list.h" alt="" coords="63,83,132,112"/>
+<area shape="rect" id="node15" href="$node_8c.html" title="This file is used to create nodes in a list." alt="" coords="156,83,239,112"/>
+<area shape="rect" id="node5" href="$list_8c.html" title="This file is used to create nodes in a list." alt="" coords="5,160,75,189"/>
+<area shape="rect" id="node7" href="$server_2module_8h.html" title="server/module.h" alt="" coords="99,160,213,189"/>
+<area shape="rect" id="node9" href="$server_2module_8c.html" title="server/module.c" alt="" coords="31,237,145,267"/>
+<area shape="rect" id="node11" href="$server_8h.html" title="server/server.h" alt="" coords="169,237,279,267"/>
+<area shape="rect" id="node13" href="$server_8c.html" title="This file is used to catch and send message from module to the webserver." alt="" coords="169,315,279,344"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d1/d20/server_8c.html#a2caa1f3cd0ab77f88f1be662c22c0481" title="This function is used for the redirection of messages." alt="" coords="152,5,227,35"/>
+<area shape="rect" id="node5" href="$d1/d20/server_8c.html#aa5e71db208ec46f647ea883e15d9e0fa" title="This function is used for the redirection of messages to the web server." alt="" coords="276,5,377,35"/>
+<area shape="rect" id="node7" href="$d8/dc3/server_8h.html#aa90942874fe42d5b0e70454816d56343" title="This is the application function which receive and send messages." alt="" coords="427,5,469,35"/>
+</map>

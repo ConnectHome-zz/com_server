@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d1/d77/node_8h.html#acf77bfa958204c2029ce629f43ae6a54" title="This function clear and free a node." alt="" coords="139,5,213,35"/>
+<area shape="rect" id="node5" href="$da/d23/list_8h.html#a428354760b7976b491d73488e9745c1c" title="This function delete a list and its nodes." alt="" coords="263,5,324,35"/>
+<area shape="rect" id="node7" href="$d8/dc3/server_8h.html#a87c7b462fa6f8b2104d6a834d17f261c" title="This function is used to close all socket." alt="" coords="373,5,488,35"/>
+<area shape="rect" id="node9" href="$d8/dc3/server_8h.html#aa90942874fe42d5b0e70454816d56343" title="This is the application function which receive and send messages." alt="" coords="536,5,579,35"/>
+</map>

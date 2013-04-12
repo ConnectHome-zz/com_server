@@ -1,5 +1,18 @@
 #include "module.h"
 
+/**
+ * \file module/module.c
+ * \brief This file is used to close properly connection with a module
+ * \author Morgan C.
+ * \version 1.0
+ * \date 12/04/2013
+ */
+
+/**
+ * \fn void clear_modules(List * modules)
+ * \brief This function is used to close all socket
+ * \param[in] modules List of module to close
+ */
 void clear_modules(List * modules)
 {
 	int i =0;
@@ -15,7 +28,12 @@ void clear_modules(List * modules)
 	}
 }
 
-
+/**
+ * \fn void remove_module(List * modules, Node * module)
+ * \brief This function is used to close all socket
+ * \param[in] modules List of module to delete
+ * \param[in] module List of module
+ */
 void remove_module(List * modules, Node * module)
 {
 	list_del(modules,module);

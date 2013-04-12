@@ -1,5 +1,19 @@
+/**
+ * \file curl/curl.c
+ * \brief This file is used to do web resquest with curl
+ * \author Morgan C.
+ * \date 12/04/2013
+ */
+
 #include "curl.h"
- 
+
+/**
+ * \fn char *do_web_request(char *msg,char *url)
+ * \brief This function do a web request with a POST method
+ * \param[in] msg the message to transfert
+ * \param[in] url the url of the web server
+ * \return the response from the web server
+ */
 char *do_web_request(char *msg,char *url)
 {
 	/* keeps the handle to the curl object */
@@ -39,7 +53,17 @@ char *do_web_request(char *msg,char *url)
 	return response;
 }
 
-/* the function to invoke as the data recieved */
+
+
+/**
+ * \fn size_t static write_callback_func(void *buffer,size_t size,size_t nmemb,void *userp)
+ * \brief the function to invoke as the data received
+ * \param[in] buffer 
+ * \param[in] size 
+ * \param[in] nmemb 
+ * \param[out] userp
+ * \return 
+ */
 size_t static write_callback_func(	void *buffer,
 					size_t size,
 					size_t nmemb,

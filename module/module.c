@@ -5,6 +5,21 @@
 
 #include "module.h"
 
+/**
+ * \file module/module.c
+ * \brief This file is an example of a module
+ * \author Morgan C.
+ * \version 1.0
+ * \date 12/04/2013
+ */
+
+/**
+ * \fn void app(const char *address, const char *name, const int port)
+ * \brief This is the application function
+ * \param[in] address the address of the server
+ * \param[in] name the name of this module
+ * \param[in] port the port where the server listen
+ */
 void app(const char *address, const char *name, const int port)
 {
 	SOCKET sock = init_connection_module(address,port);
@@ -74,6 +89,17 @@ void app(const char *address, const char *name, const int port)
    end_connection_module(sock);
 }
 
+
+/**
+ * \fn int main(int argc, char *argv[])
+ * \brief This program must be launch as : ./program [port] [ip_web_server]
+ * \param[in] argc must be equal to 3
+ * \param[in] argv[] 0=program
+ *		      1=address 
+ * 		      2=name
+ * 		      3=port
+ * \return the exit of the application
+ */
 int main(int argc, char **argv)
 {
    if(argc < 3)
